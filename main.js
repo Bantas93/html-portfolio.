@@ -5,7 +5,7 @@ function fetchData() {
   fetch(apiUrl, {
     method: "GET",
     headers: {
-      "X-Api-Key": APIKEY,
+      "X-Api-Key": apiKey,
     },
   })
     .then((response) => response.json())
