@@ -10,6 +10,7 @@ function fetchData() {
   })
     .then((response) => response.json())
     .then((data) => {
+      console.log(data);
       displayDataQuote(data); // Memanggil fungsi untuk menampilkan data
       displayDataAuthor(data); // Memanggil fungsi untuk menampilkan data
     })
