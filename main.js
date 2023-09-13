@@ -1,8 +1,6 @@
+const apiKey = "EGnmlmFxJrkgwHveljCoH0t865lKyObkmNVON5IN";
 const category = "success";
-const apiUrl =
-  "https://api.api-ninjas.com/v1/quotes?category=" +
-  category +
-  "EGnmlmFxJrkgwHveljCoH0t865lKyObkmNVON5IN";
+const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
 // Fungsi untuk mengambil data dari API
 console.log(apiKey);
 function fetchData() {
