@@ -1,4 +1,3 @@
-const apiKey = config.apiKey;
 const category = "success";
 const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
 // Fungsi untuk mengambil data dari API
