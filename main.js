@@ -1,6 +1,7 @@
 const category = "success";
 const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
 // Fungsi untuk mengambil data dari API
+console.log(apiKey);
 function fetchData() {
   fetch(apiUrl, {
     method: "GET",
@@ -10,7 +11,6 @@ function fetchData() {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log(apiKey);
       displayDataQuote(data); // Memanggil fungsi untuk menampilkan data
       displayDataAuthor(data); // Memanggil fungsi untuk menampilkan data
     })
